@@ -1,0 +1,55 @@
+
+.services-container{
+    background-color:  #500472;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px 50px;
+}
+
+.services-container h1{
+    color:#ffff;
+}
+
+.services-container h1 span{
+    color:#10bd61;
+}
+
+
+
+.card{
+    flex :1 1 30rem;
+    text-align: center;
+    background-color: #212121;
+    border-radius: 10px;
+    padding :20px 20px;
+    margin:10px;
+    cursor:pointer;
+}
+
+.card:hover{
+    
+    border:2px Solid #10bd61;
+}
+.card i{
+    color:#10bd61;
+    font-size: 40px;
+}
+
+.card p{
+    color:#ffff;
+    font-size:18px;
+    font-weight: 400;
+}
+
+.services-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:10px;
+}
+

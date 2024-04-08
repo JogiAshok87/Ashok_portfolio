@@ -1,0 +1,142 @@
+.projects-section{
+    background-color:#500472 ;
+    background-size: auto;
+    padding:20px 10px;
+    text-align: center;
+    
+}
+
+.projects-section h2{
+    margin-bottom:4rem;
+    font-size: 2.5rem;
+    color:#fff;
+}
+.projects-section h2 span{
+    color:#10bd61;
+}
+
+.projects-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:2.5rem;
+}
+
+/*.projects-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-flow: column;
+    align-items:center ;
+    gap:2.5rem;
+}*/
+
+.projects-container .project-card{
+    position: relative;
+    border-radius:2rem ;
+    box-shadow: 0 0 1rem #500472;
+    overflow: hidden;
+    display: flex;
+    
+    cursor: pointer;
+    width:400px;
+    height:200px;
+
+} 
+
+.project-card img{
+    width:100%;
+    
+    transition:.5s ease ;
+    opacity :0.7;
+}
+
+.project-card:hover img{
+    transform: scale(1.1);
+}
+
+.project-card .project-layer{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(rgba(0,0,0,0.1), #10bd61);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0.4rem;
+    transform:translateY(100%);
+    transition: .5s ease;
+}
+.project-card:hover .project-layer{
+    transform: translateY(0);
+}
+
+.project-layer h1{
+    font-size: 2rem;
+    color:#fff;
+}
+.project-layer p{
+    font-size: 1rem;
+    margin: .3rem 0 1rem;
+    color:#fff;
+}
+ /*
+ .project-layer a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width:5rem;
+    height:5rem;
+    
+    color:#fff;
+    border-radius: 50%;
+}
+.project-layer a i {
+    font-size:2rem;
+    color:#fff;
+    background-color: #fff;
+
+}
+*/
+
+.arrow-icon{
+    color:#fff;
+    font-size:1.5rem;
+}
+@media screen and (max-width:769px){
+
+    .projects-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .projects-section{
+        padding: 10px 15px;
+        background-size: auto;
+        
+
+    }
+    .projects-container .project-card{
+        height:200px;
+        width:300px;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .projects-section{
+        padding: 10px 15px;
+        background-size: cover;
+        
+
+    }
+}
+
+
