@@ -11,7 +11,8 @@
 
 .services-container h1{
     color:#ffff;
-    margin-top:5rem;
+    margin-top:3rem;
+    margin-bottom :4rem;
 }
 
 .services-container h1 span{
@@ -62,7 +63,7 @@
         padding:10px 30px;
    }
     .card{
-        padding :3rem 2rem 3rem;
+        padding :2rem 2rem 2rem;
 
   }
 }
