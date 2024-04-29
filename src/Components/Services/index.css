@@ -57,6 +57,7 @@
 @media screen and (min-width:769px){
     .services-container{
         background-size:auto;
+        height:100vh;
         padding:10px 30px;
 }
 }
