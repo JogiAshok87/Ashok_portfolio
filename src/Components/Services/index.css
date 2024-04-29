@@ -60,8 +60,11 @@
     .services-container{
         background-size:auto;
         padding:10px 30px;
-}
-}
+   }
+    .card{
+        padding :3rem 2rem 3rem;
 
+  }
+}
 
 
