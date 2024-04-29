@@ -2,6 +2,7 @@
 .services-container{
     background-color:  #500472;
     background-size: auto;
+    height:100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
