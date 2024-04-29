@@ -1,7 +1,7 @@
 
 .services-container{
     background-color:  #500472;
-    backgoud-size:cover;
+    height:100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,7 +55,7 @@
 
 @media screen and (min-width:769px){
     .services-container{
-        height:100vh;
+        background-size:auto;
         padding:10px 30px;
 }
 }
