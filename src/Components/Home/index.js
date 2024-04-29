@@ -1,15 +1,32 @@
-
+import React, { useEffect } from 'react';
+import Typed from 'typed.js';
 import './index.css'
 
 
 
 const Home = () =>{
+
+    useEffect(() => {
+        const typed = new Typed('.multiple-text', {
+          strings: ['Full stack developer', 'Frontend developer', 'Backend developer'],
+          typeSpeed: 100,
+          backSpeed: 100,
+          backDelay: 1000,
+          loop: true,
+        });
+    
+        // Clean up function to destroy Typed instance when component unmounts
+        return () => {
+          typed.destroy();
+        };
+      }, []); 
+      
     return(
         <div className='home-bg'>
             <div className='home-content'>
             <h1 className='heading1'>Hello, I am</h1>
             <h1 className='heading2'>Jogi Ashok</h1>
-            <h1 className='heading3'>I'm a <span>Full stack developer</span></h1>
+            <h1 className='heading3'>I'm a <span className='multiple-text'>Full stack developer</span></h1>
             <p className='para'>Buliding Bridges Between Front-End and Back-End, Transforming Ideas into Web Reality</p>
             <div className='icons'>
                 <a href="https://www.linkedin.com/in/ashok-jogi" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin-in linkedin-icon"></i></a>
