@@ -1,7 +1,7 @@
 
 .services-container{
     background-color:  #500472;
-
+    height:150vh;
     background-size:auto;
     display: flex;
     flex-direction: column;
