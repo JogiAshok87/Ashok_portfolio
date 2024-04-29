@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding:10px 30px;
+    padding:10px 50px;
 }
 
 .services-container h1{
@@ -56,7 +56,7 @@
 @media screen and (min-width:769px){
     .services-container{
         background-size:auto;
-        padding:20px 50px;
+        padding:10px 30px;
 }
 }
 
