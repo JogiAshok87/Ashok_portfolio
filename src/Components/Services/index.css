@@ -13,11 +13,9 @@
 .services-heading{
     color:#ffff;
     margin-top:3rem;
-<<<<<<< HEAD
     margin-bottom :3rem;
-=======
     margin-bottom :4rem;
->>>>>>> 3b257b71ac533aa258c36ff862b67f938fe6321b
+
 }
 
 .services-heading span{
@@ -31,15 +29,12 @@
     text-align: center;
     background-color: #212121;
     border-radius: 10px;
-<<<<<<< HEAD
     padding :20px 10px;
     transition:.5s ease;
     margin:8px;
-=======
     padding :20px 20px;
     transition:.5s ease;
     margin:5px;
->>>>>>> 3b257b71ac533aa258c36ff862b67f938fe6321b
     cursor:pointer;
 }
 
@@ -74,19 +69,13 @@
 @media screen and (min-width:769px){
     .services-container{
         background-size:auto;
-<<<<<<< HEAD
         padding:10px 100px;
    }
    .card{
     padding:20px 30px; 
-=======
-        padding:10px 30px;
->>>>>>> 3b257b71ac533aa258c36ff862b67f938fe6321b
+    padding:10px 30px;
+
    }
     
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 3b257b71ac533aa258c36ff862b67f938fe6321b
