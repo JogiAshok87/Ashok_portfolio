@@ -3,7 +3,7 @@ import './index.css'
 const Services = () =>{
     return(
         <div className='services-container'>
-            <h1>My <span>Services</span></h1>
+            <h1 className='services-heading'>My <span>Services</span></h1>
             <div className='services-card-container'>
                 <div className='card'>
                     <i className='fa-solid fa-code'></i>

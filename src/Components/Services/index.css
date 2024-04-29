@@ -1,19 +1,22 @@
 
 .services-container{
     background-color:  #500472;
-    background-size: auto;
+    background-size:auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding:10px 50px;
+    padding:10px 20px;
 }
 
-.services-container h1{
+
+.services-heading{
     color:#ffff;
+    margin-top:3rem;
+    margin-bottom :3rem;
 }
 
-.services-container h1 span{
+.services-heading span{
     color:#10bd61;
 }
 
@@ -24,8 +27,9 @@
     text-align: center;
     background-color: #212121;
     border-radius: 10px;
-    padding :20px 20px;
-    margin:10px;
+    padding :20px 10px;
+    transition:.5s ease;
+    margin:8px;
     cursor:pointer;
 }
 
@@ -36,6 +40,9 @@
 .card i{
     color:#10bd61;
     font-size: 40px;
+}
+.card h1{
+    color:#fff;
 }
 
 .card p{
@@ -50,15 +57,18 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin:10px;
+    gap:2rem;
+    
 }
 
-@media screen and (max-width:769px){
+@media screen and (min-width:769px){
     .services-container{
-        background-size: auto;
-        padding:20px 60px;
+        background-size:auto;
+        padding:10px 100px;
+   }
+   .card{
+    padding:20px 30px; 
+   }
+    
 }
-}
-
-
 
