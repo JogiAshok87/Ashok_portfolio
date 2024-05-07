@@ -8,13 +8,13 @@
   justify-content: space-between;
   align-items: center;  
   background-color:#500472;
-  padding:20px 80px;
+  padding:20px 50px;
   position: sticky;
   top :0;
 }
 
 .logo{
-    margin-left:10px;
+    margin-left:6px;
     color:#fff;
 }
 
@@ -34,7 +34,7 @@
     position: relative;
     color:#ffffff;
     font-weight: 600;
-    font-size:18px;
+    font-size:20px;
     cursor: pointer;
     transition: 0.3es ease-in-out;
 }
