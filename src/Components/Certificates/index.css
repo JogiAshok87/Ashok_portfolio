@@ -20,18 +20,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:20px 100px ;
+    margin:20px 50px ;
     flex-wrap: wrap;
 
 }
 .certificates-container img{
     width:250px;
-    margin: 40px 20px;
+    margin: 20px 35px 60px;
     cursor: pointer;
-
+    transition: transform 0.3s ease-in-out;
 }
 .certificates-container img:hover{
-    width:300px;
+    transform: scale(1.2);
+    
     
 }
 @media screen and (max-width:769px){
@@ -43,23 +44,23 @@
     /* Style the scrollbar */
     .certificates-section::-webkit-scrollbar {
         width: 10px; /* Width of the scrollbar */
-        background-color: hsl(248, 85%, 50%); /* Background color of the scrollbar track */
+        background-color: hsl(248, 85%, 50%); 
     }
 
     /* Style the scrollbar thumb */
     .certificates-section::-webkit-scrollbar-thumb {
-        background-color: hsl(0, 29%, 6%); /* Color of the scrollbar thumb */
-        border-radius: 5px; /* Rounded corners of the scrollbar thumb */
+        background-color: hsl(0, 29%, 6%); 
+        border-radius: 5px; 
     }
 
     /* Style the scrollbar track */
     .certificates-section::-webkit-scrollbar-track {
-        background-color: #ccc; /* Color of the scrollbar track */
-        border-radius: 5px; /* Rounded corners of the scrollbar track */
+        background-color: #ccc; 
+        border-radius: 5px; 
     }
 
     /* Style the scrollbar corner */
     .certificates-section::-webkit-scrollbar-corner {
-        background-color: #f0f0f0; /* Background color of the scrollbar corner */
+        background-color: #f0f0f0; 
     }
 }

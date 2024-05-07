@@ -64,9 +64,9 @@
     margin-right: 10px;
 }
 .profile-img{
-    height :350px;
-    width:300px;
-    border-radius: 100px;
+    height :400px;
+    width:350px;
+    border-radius: 50%;
     border:5px solid #10bd61;
     animation-name: floating;
     animation-duration:3s;
@@ -112,6 +112,8 @@
     }
     .profile-img{
         margin-top: 20px;
+        height:350px;
+        width:300px;
     }
     .btn{
         padding:0.5rem 2rem;
