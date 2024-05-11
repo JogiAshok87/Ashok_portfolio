@@ -53,6 +53,14 @@ const Projects = () =>{
                         <a href="https://1IPLDashboard.ccbp.tech" target="_blank" rel="noopener noreferrer"><i className='fa-solid fa-up-right-from-square arrow-icon'></i></a>
                     </div>
                 </div>
+                <div className='project-card'>
+                    <img src="/projects/taskManager.png" alt="wikipedia_img"/>
+                    <div className='project-layer'>
+                        <h1>Task Manager Application</h1>
+                        <p>TaskManager Application allows you to organize your tasks, set reminders, and prioritize your workload with ease</p>
+                        <a href="https://taskmanagerapplication.vercel.app/" target="_blank" rel="noopener noreferrer"><i className='fa-solid fa-up-right-from-square arrow-icon'></i></a>
+                    </div>
+                </div>
 
             </div>
 
